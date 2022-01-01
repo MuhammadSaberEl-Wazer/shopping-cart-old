@@ -29,7 +29,7 @@ export class Child extends PureComponent {
                 to={`/product/${product.id}/${product.image}/${product.price}/${product.name}`}
               >
                 <div className="img-and-p">
-                  <img className="product-image" src={require(`./${product.image}`).default} />
+                  <img className="product-image" src={require(`./${product.image}`)} />
                   <h5 className="out-of-stock">OUT OF STOCK</h5>
                 </div>
               </Link>
