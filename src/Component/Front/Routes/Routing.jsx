@@ -104,7 +104,7 @@ const Routing = ({
         ></Route>
 
         <Route
-          path="/shopping-cart-old"
+          path="/shopping-cart-old/"
           exact
           element={
             <Women
