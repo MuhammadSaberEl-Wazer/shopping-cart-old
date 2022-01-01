@@ -1,0 +1,122 @@
+body {
+    /* background-color: blueviolet; */
+    background-color: #f8f8f8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    font-size: 2.5rem;
+    text-align: left;
+    margin: 3rem 0;
+}
+
+.containero {
+    margin: 0;
+}
+
+.min-cont {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background-color: orange; */
+}
+
+.card {
+    width: 32%;
+    border: none;
+    margin-bottom: 4rem;
+    padding: 2rem;
+    transition: all .25s ease;
+}
+
+.card .img-and-p {
+    position: relative;
+}
+
+.card .img-and-p .out-of-stock {
+    font-size: 1.3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    color: rgb(74, 77, 80);
+    transition: all .5s ease;
+}
+
+.card:hover {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    transition: all .25s ease;
+}
+
+.min-cont div:nth-child(3) {
+    transition: all .5s ease;
+}
+
+.min-cont div:nth-child(3):hover img {
+    transition: all .5s ease;
+    opacity: .5;
+}
+
+.min-cont div:nth-child(3):hover .out-of-stock {
+    display: block;
+    transition: all .5s ease;
+}
+
+.min-cont div:nth-child(3):hover div:nth-child(3) button {
+    display: none;
+    transition: all .5s ease;
+}
+
+.card img {
+    width: 100%;
+    transition: all .25s ease;
+}
+
+.card .product-name,
+.card .product-price {
+    text-align: left;
+}
+
+.card .product-name {
+    font-size: 1.2rem;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.card .product-price {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.card .lower {
+    position: relative;
+    /* background-color: red; */
+    padding-top: 1rem;
+}
+
+.card button {
+    background-color: #56AD70;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    padding: .7rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: all .25s ease;
+}
+
+.card:hover button {
+    transition: all .25s ease;
+    opacity: 1;
+}

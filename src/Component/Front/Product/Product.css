@@ -1,0 +1,129 @@
+.PDP-container {
+    /* background-color: blue; */
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.PDP-min-cont {
+    /* background-color: turquoise; */
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.PDP-left {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    /* background-color: red; */
+}
+
+.PDP-left img {
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+
+.PDP-middle {
+    width: 55%;
+    margin-right: 2rem;
+    /* background-color: seagreen; */
+}
+
+.PDP-main-image {
+    width: 100%;
+}
+
+.PDP-right {
+    width: 28%;
+    text-align: left;
+    /* background-color: tomato; */
+}
+
+.PDP-right-1 {
+    margin-bottom: 3rem;
+}
+
+.PDP-main-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.PDP-second-title {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.PDP-right-2 {
+    margin-bottom: 2rem;
+}
+
+.PDP-right-2 h5 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.PDP-right-buttons {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.PDP-size-button {
+    width: 22%;
+    padding: .6rem 1rem;
+    border: 1px solid #111;
+}
+
+.invalid-button-1 {
+    color: #999;
+    border-color: #999;
+}
+
+.black-button-2 {
+    color: white;
+    background-color: #111;
+}
+
+.PDP-right-3 {
+    margin-bottom: 2rem;
+}
+
+.PDP-right-3 p {
+    font-size: 1.5rem;
+}
+
+.PDP-right-3 h5 {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.PDP-right-4 {
+    margin-bottom: 2rem;
+    width: 90%;
+}
+
+.PDP-right-4 button {
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+    border: none;
+    background-color: #5ECE7B;
+    color: #fff;
+    border-radius: 1px;
+    font-size: 1rem;
+}
+
+.PDP-right-5 {
+    width: 90%;
+}
+
+.PDP-right-5 p {
+    font-weight: 400;
+    font-size: 1.03rem;
+}
