@@ -8,6 +8,7 @@ import Product from "../Product/Product";
 import { PDP } from "../Product/Product";
 import "./Routing.css";
 
+
 const Routing = ({
   womenProduct,
   menProduct,
@@ -35,7 +36,7 @@ const Routing = ({
           }
         ></Route>
         <Route
-          path="/"
+          path="/men"
           exact
           element={
             <Men
@@ -71,6 +72,8 @@ const Routing = ({
           }
         ></Route>
 
+
+
         <Route
           path={`/product/:id/:image/:price/:name`}
           exact
@@ -100,7 +103,20 @@ const Routing = ({
           }
         ></Route>
 
-        <Redirect from="/old-path" to="/women" />
+        <Route
+          path="/shopping-cart-old"
+          exact
+          element={
+            <Women
+              womenProduct={womenProduct}
+              handleAddProduct={handleAddProduct}
+              handleOn={handleOn}
+              handleOff={handleOff}
+            />
+          }
+        ></Route>
+
+
 
         {/* <Route path="/product" exact element={<Women womenProduct={womenProduct} />}></Route> */}
       </Routes>
