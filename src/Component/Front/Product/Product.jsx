@@ -16,24 +16,24 @@ const PDP = () => {
         <div className="PDP-min-cont">
           <div className="PDP-left">
             <img
-              src={require(`./pics/${image}`).default}
+              src={require(`./pics/${image}`)}
               alt="Product Image Here"
               srcset=""
             />
             <img
-              src={require(`./pics/${image}`).default}
+              src={require(`./pics/${image}`)}
               alt="Product Image Here"
               srcset=""
             />
             <img
-              src={require(`./pics/${image}`).default}
+              src={require(`./pics/${image}`)}
               alt="Product Image Here"
               srcset=""
             />
           </div>
           <div className="PDP-middle">
             <img
-              src={require(`./pics/${image}`).default}
+              src={require(`./pics/${image}`)}
               alt="Product Image Here"
               srcset=""
               className="PDP-main-image"

@@ -29,8 +29,8 @@ export class Women extends PureComponent {
               >
                 {" "}
                 <div className="img-and-p">
-                  <img className="product-image" src={require(`./${product.image}`).default} />
-                  
+                  <img className="product-image" src={require(`./${product.image}`)} />
+
                   <h5 className="out-of-stock">OUT OF STOCK</h5>
                 </div>
               </Link>

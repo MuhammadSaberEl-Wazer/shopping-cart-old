@@ -15,14 +15,6 @@ export class Bag extends PureComponent {
 
     const mainName = [cartItem.name];
 
-    // const handleCartClearance = this.props.handleCartClearance;
-    // {const names = name.split(" ");
-    // const mainName = names[0];
-    // let secondName = `${names[1]} ${names[2]}`;}
-    // const totalPrice = cartItem.reduce(
-    //   (price, item) => price + item.quantity * item.price,
-    //   0
-    // );
     return (
       <div className="cart-item">
         <div className="containero2">
@@ -73,21 +65,18 @@ export class Bag extends PureComponent {
                   <div className="cart-item-right-2">
                     <img
                       className="cart-items-image"
-                      src={require(`./${item.image}`).default}
+                      src={require(`./${item.image}`)}
                       alt={item.name}
                     />
                   </div>
                 </div>
-              
+
               </div>
             </div>
           ))}
         </div>
 
-        {/* <div className="cart-item-total-price-name">
-            Total Price
-            <div className="cart-item-total-price">${totalPrice}</div>
-          </div> */}
+
       </div>
     );
   }

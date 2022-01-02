@@ -161,7 +161,7 @@ export class Header extends PureComponent {
                             <div className="carto-item-right-2">
                               <img
                                 className="carto-items-image"
-                                src={require(`./${item.image}`).default}
+                                src={require(`./${item.image}`)}
                                 alt={item.name}
                               />
                             </div>
